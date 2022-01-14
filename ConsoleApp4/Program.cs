@@ -8,7 +8,7 @@ namespace ConsoleApp4
         {
             string alphabet = "abcdefghijklmnopqrstuvwxyz";
 
-            Console.Write("Write size of array: ");
+            Console.Write("Введите размер массива: ");
             int n = Convert.ToInt32(Console.ReadLine());
             int[] array = new int[n];
 
